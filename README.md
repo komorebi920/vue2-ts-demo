@@ -2,9 +2,11 @@
 
 在 Vue2 中使用 Typescript
 
-- 视频教程 - [https://www.bilibili.com/video/BV1A54y117kA](https://www.bilibili.com/video/BV1A54y117kA)
-- vue2 支持 ts - [https://github.com/kaorun343/vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
-- vuex 支持 ts - [https://github.com/championswimmer/vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
+- [https://www.bilibili.com/video/BV1A54y117kA](https://www.bilibili.com/video/BV1A54y117kA)
+- [https://zhuanlan.zhihu.com/p/191443950](https://zhuanlan.zhihu.com/p/191443950)
+- [vue2 支持 ts 插件 - vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+- [vuex 支持 ts - vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
+- [vue-typescript-admin](https://armour.github.io/vue-typescript-admin-docs/zh/)
 
 ## Project setup
 ```

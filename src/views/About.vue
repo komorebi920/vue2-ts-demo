@@ -2,9 +2,9 @@
   <div class="about">
     <h1>This is an about page</h1>
 
-    <p>{{ firstName }}</p>
-    <p>{{ lastName }}</p>
-    <p>{{ fullName }}</p>
+    <p><b style="color: red">firstName from state:</b> {{ firstName }}</p>
+    <p><b style="color: red">lastName from state:</b> {{ lastName }}</p>
+    <p><b style="color: red">fullName from computed:</b> {{ fullName }}</p>
     <button @click="modifyFullName">修改 fullName</button>
 
     <hr />
@@ -16,13 +16,24 @@
       @change-age="changeAge"
       @on-remove="remove"
       v-model="firstName"
-    ></User>
+    />
+
+    <hr />
+
+    <p>
+      <b style="color: red">count from vuex:</b> {{ count }}
+      <button @click="add">+1</button>
+    </p>
+    <p>
+      <b style="color: red">filterList from vuex:</b> {{ filterList.join("-") }}
+    </p>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Watch } from "vue-property-decorator";
 import User from "@/components/User.vue";
+import { AboutStore } from "@/store/module/about";
 
 interface IUser {
   id: number;
@@ -36,6 +47,26 @@ interface IUser {
   components: { User },
 })
 export default class About extends Vue {
+  created(): void {
+    AboutStore.getList().then((res) => {
+      if (res) {
+        console.log("获取成功");
+      }
+    });
+  }
+
+  get count(): number {
+    return AboutStore.count;
+  }
+
+  get filterList(): Array<number> {
+    return AboutStore.filterList;
+  }
+
+  add(): void {
+    AboutStore.updateCount(1);
+  }
+
   firstName = "zhang";
   lastName = "san";
 
