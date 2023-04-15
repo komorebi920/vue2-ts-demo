@@ -2,31 +2,8 @@
 
 在 Vue2 中使用 Typescript
 
-- [https://www.bilibili.com/video/BV1A54y117kA](https://www.bilibili.com/video/BV1A54y117kA)
-- [https://zhuanlan.zhihu.com/p/191443950](https://zhuanlan.zhihu.com/p/191443950)
-- [vue2 支持 ts 插件 - vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
-- [vuex 支持 ts - vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
-- [vue-typescript-admin](https://armour.github.io/vue-typescript-admin-docs/zh/)
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Typescript 入门并在 Vue 项目中使用](https://www.bilibili.com/video/BV1A54y117kA)
+- [vue-property-decorator 使用方法](https://zhuanlan.zhihu.com/p/191443950)
+- [GitHub - vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+- [GitHub - vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
+- [vue-typescript-admin - 一个基于 TypeScript 的神奇的 Vue 管理平台模版](https://armour.github.io/vue-typescript-admin-docs/zh/)
