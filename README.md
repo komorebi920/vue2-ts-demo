@@ -9,3 +9,5 @@
 [GitHub - vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators)
 
 [vue-typescript-admin - 一个基于 TypeScript 的神奇的 Vue 管理平台模版](https://armour.github.io/vue-typescript-admin-docs/zh/)
+
+[在 vue2 中使用 ts](https://xie.infoq.cn/article/00845440bed4248cb80c15128)
